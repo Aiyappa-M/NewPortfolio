@@ -1,0 +1,52 @@
+body {
+    font-family: "monospace", sans-serif;
+}
+
+.font-primary {
+    color: #00abae;
+}
+
+.whole_block {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.whole_block #about {
+    margin-top: 20px;
+    height: 300px;
+}
+
+.flex-parent {
+    display: flex;
+    min-height: 0px;
+}
+
+.leftdiv {
+    float: left;
+    color: black;
+    width: 33%;
+}
+
+.middlediv {
+    float: left;
+    color: black;
+    width: 33%;
+}
+
+.rightdiv {
+    float: left;
+    color: black;
+    width: 33%;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.icons a {
+    color: black;
+}
