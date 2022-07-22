@@ -32,10 +32,9 @@ a.font-black {
 }
 
 .btn-secondary {
-    background-color: #00ABAE !important;
-    border-color: #ffffff !important;
+    background-color: #00ABAE;
     padding: 10px !important;
-    width: 150px;
+    width: 120px;
 }
 
 #about {
@@ -80,10 +79,6 @@ div#my_portfolio {
     width: 100%;
 }
 
-#projects h2 {
-    text-align: center;
-}
-
 #projects .card img {
     width: 100%;
 }
@@ -101,14 +96,6 @@ div#my_portfolio {
 
 .card {
     border: 1px solid white !important;
-}
-
-.card-body {
-    padding: 1rem 0rem !important;
-}
-
-.icons a {
-    color: black;
 }
 
 .card-text-description {
