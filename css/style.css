@@ -46,34 +46,12 @@ a.font-black {
     flex-wrap: wrap-reverse;
 }
 
-#about img {
-    border-radius: 50%;
-    width: 600px;
-    border: 10px solid #00ABAE;
-    margin-bottom: 10px;
-}
-
-#about .detail {
-    margin-bottom: 10px;
-}
-
-#about .skills {
-    font-size: 12px;
-    color: #00ABAE;
-    margin-bottom: 10px;
-}
-
-#about .icons {
-    margin-top: 20px;
-    font-size: 200%;
-}
-
 .details {
     margin-top: 10%;
     width: 43%;
 }
 
-div#what {
+div#my_portfolio {
     margin-top: 3%;
     display: flex;
     flex-wrap: wrap;
@@ -129,10 +107,6 @@ div#what {
     padding: 1rem 0rem !important;
 }
 
-footer {
-    text-align: center;
-}
-
 .icons a {
     color: black;
 }
@@ -141,39 +115,24 @@ footer {
     width: 80%;
 }
 
-@media screen and (max-width: 1170px) {
-    #about {
-        text-align: center;
-    }
-    .details {
-        width: 100%;
-    }
+#about img {
+    border-radius: 50%;
+    width: 450px;
+    border: 10px solid #00ABAE;
+    margin-bottom: 10px;
 }
 
-@media screen and (max-width: 1245px) {
-    .what_do {
-        width: 450px;
-    }
+#about .detail {
+    margin-bottom: 10px;
 }
 
-@media screen and (max-width: 1000px) {
-    .what_do {
-        width: 100%;
-    }
-    #what p {
-        margin-bottom: 4%;
-    }
+#about .skills {
+    font-size: 12px;
+    color: #00ABAE;
+    margin-bottom: 10px;
 }
 
-@media screen and (max-width: 767px) {
-    .card-text-description {
-        width: 100%;
-        text-align: justify;
-    }
-}
-
-@media screen and (max-width: 500px) {
-    #about img {
-        width: 100%;
-    }
+#about .icons {
+    margin-top: 20px;
+    font-size: 200%;
 }
