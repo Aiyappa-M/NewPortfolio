@@ -47,6 +47,6 @@ body {
     margin-bottom: 50px;
 }
 
-.icons a {
-    color: black;
+.card-text {
+    font-size: 14px;
 }
